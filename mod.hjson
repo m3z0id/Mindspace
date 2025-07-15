@@ -1,14 +1,14 @@
 #the mod name as displayed in-game
-displayName: "Mindspace"
+displayName: "[#5816ff[]]Mindspace"
 
 #the internal name of your mod
 name: "mindspace"
 
 #your name
-author: "You"
+author: "Paradox"
 
 #the fully qualified main class of the mod
-main: "org.para.Mindspace"
+main: "paradox.Mindspace"
 
 #the mod description as seen in the mod dialog
 description: "A Mindustry Java mod template."

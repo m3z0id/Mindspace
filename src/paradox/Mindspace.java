@@ -1,4 +1,4 @@
-package org.para;
+package paradox;
 
 import arc.*;
 import arc.util.*;
