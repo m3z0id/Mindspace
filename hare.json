@@ -1,0 +1,42 @@
+{
+  "name": "hare",
+  "type": "UnitType",
+  "health": 180,
+  "speed": 3.0,
+  "flying": false,
+  "hitSize": 10,
+  "armor": 2,
+  "rotateSpeed": 40,
+  "legCount": 6,
+  "legLength": 6,
+  "weapons": [
+    {
+      "name": "hare-blaster",
+      "x": 0,
+      "y": 0,
+      "reload": 18,
+      "shootY": 1,
+      "bullet": {
+        "damage": 12,
+        "speed": 4.0,
+        "lifetime": 30,
+        "status": "disarmed",
+        "statusDuration": 60,
+        "trailColor": "teal"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "BlinkAbility",
+      "cooldown": 150,
+      "range": 40
+    },
+    {
+      "type": "DashAbility",
+      "cooldown": 120,
+      "boost": 1.5,
+      "duration": 20
+    }
+  ]
+}
